@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap");
 .mainCont {
   display: flex;
   padding: 0;
