@@ -1,11 +1,11 @@
 <template>
-  <div class="container postInfo">
+  <v-container class="postInfo">
     <p>Home > Posts > Post {{post.id}}</p>
       <v-img height="525px" :src=post.imageUrl></v-img>
       <h1>{{post.title}}</h1>
       <p> <span>{{post.tag}}</span> {{post.date}}</p>
       <p class="body">{{post.body}}</p>
-  </div>
+  </v-container>
 </template>
 
 <script>

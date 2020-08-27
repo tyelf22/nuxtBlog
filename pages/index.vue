@@ -40,6 +40,7 @@ export default {
   display: flex;
   padding: 0;
   font-family: "Martel Sans", sans-serif;
+  overflow: hidden;
 }
 
 /* Waves */
@@ -80,12 +81,8 @@ export default {
 }
 
 .fixedImage {
-  /* background-image: url('../assets/blog.jpg'); */
   background-color: #1e1e1e; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
-  /* background-position: center; Center the image */
-  /* background-repeat: no-repeat; Do not repeat the image */
-  /* background-size: cover; */
   width: 50%;
   height: 100vh;
   position: fixed;
@@ -136,5 +133,76 @@ export default {
   display: flex;
   justify-content: center;
 }
+
+/* Media Query */
+@media only screen and (max-width: 800px) {
+.mainCont {
+  display: block;
+
+}
+
+/* Waves */
+.wave {
+  top: -920px;
+}
+
+.welcomeImage {
+  width: 100%;
+  height: 100%;
+}
+
+.fixedImage {
+  background-color: #1e1e1e; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  width: 100%;
+  position: absolute;
+}
+
+.title {
+  position: static;
+  margin: 0 auto;
+  color: white;
+  width: 100%;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.title h1 {
+  font-size: 50px;
+  position: relative;
+}
+
+.title span {
+  color: #ea178c;
+}
+
+.divider {
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 40px;
+  width: 10px;
+  background: #ea178c;
+}
+
+.welcomeText {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 90px;
+}
+
+.welcomeText h1 {
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
+}
+}
+
 </style>
 
