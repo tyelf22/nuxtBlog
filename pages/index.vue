@@ -174,9 +174,9 @@ export default {
 
 .title {
   position: static;
-  margin: 0 auto;
+  margin: 30px auto 0;
   width: 100%;
-  padding: 50px;
+  padding: 0 50px;
 }
 
 .title h1 {
@@ -198,7 +198,7 @@ export default {
 .welcomeText {
   width: 100%;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 140px;
   height: auto;
 }
 }
