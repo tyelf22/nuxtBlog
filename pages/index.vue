@@ -8,7 +8,7 @@
         <h1>Hello,</h1>
         <h3>
           I'm
-          <span>Tyson Elfors</span> and this is my blog. Feel free to take a look around, enjoy your visit.
+          <span>Tyson Elfors!</span> and this is my blog. Feel free to take a look around, enjoy your visit.
         </h3>
       </div>
       <div class="fixedImage"></div>
