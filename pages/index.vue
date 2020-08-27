@@ -28,7 +28,7 @@
 export default {
   head() {
     return {
-      title: "My Blog",
+      title: "Tyson's Blog",
     };
   }
 };
@@ -44,7 +44,7 @@ export default {
 
 /* Waves */
 .wave {
-  position: fixed;
+  position: absolute;
   top: -1000px;
   right: 50%;
   left: 50%;
@@ -130,6 +130,11 @@ export default {
 .welcomeText h1 {
   line-height: 1.5;
   margin-top: 30px;
+}
+
+.articles {
+  display: flex;
+  justify-content: center;
 }
 </style>
 
