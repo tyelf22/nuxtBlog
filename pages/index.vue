@@ -138,6 +138,17 @@ export default {
   justify-content: center;
 }
 
+
+
+/* Media Query */
+@media only screen and (max-width: 500px) {
+  .title h3 {
+    font-size: 28px;
+  }
+}
+
+
+
 /* Media Query */
 @media only screen and (max-width: 800px) {
 .mainCont {
@@ -156,8 +167,7 @@ export default {
 }
 
 .fixedImage {
-  background-color: #1e1e1e; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
+  height: 500px;
   width: 100%;
   position: absolute;
 }
@@ -165,10 +175,8 @@ export default {
 .title {
   position: static;
   margin: 0 auto;
-  color: white;
   width: 100%;
   padding: 50px;
-  font-size: 30px;
 }
 
 .title h1 {
@@ -176,9 +184,6 @@ export default {
   position: relative;
 }
 
-.title span {
-  color: #ea178c;
-}
 
 .divider {
   position: absolute;
@@ -193,18 +198,8 @@ export default {
 .welcomeText {
   width: 100%;
   margin: 0 auto;
-  padding: 50px;
-  margin-top: 90px;
-}
-
-.welcomeText h1 {
-  line-height: 1.5;
-  margin-top: 30px;
-}
-
-.articles {
-  display: flex;
-  justify-content: center;
+  margin-top: 80px;
+  height: auto;
 }
 }
 
