@@ -1,7 +1,7 @@
 <template>
   <div class="allCards">
     <v-card v-for="post in posts" :key="post.id" class="card" max-width="344">
-      <v-img src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" height="200px"></v-img>
+      <v-img :src=post.imageUrl height="200px"></v-img>
 
       <v-card-title>{{post.title}}</v-card-title>
 
