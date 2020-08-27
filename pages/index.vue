@@ -36,6 +36,12 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap");
+html {
+  overflow: hidden;
+}
+body {
+  overflow: hidden;
+}
 .mainCont {
   display: flex;
   padding: 0;
