@@ -8,7 +8,7 @@
         <h1>Hello,</h1>
         <h3>
           I'm
-          <span>Tyson Elfors!</span> and this is my blog. Feel free to take a look around, enjoy your visit.
+          <span>Tyson Elfors</span> and this is my blog. Feel free to take a look around, enjoy your visit.
         </h3>
       </div>
       <div class="fixedImage"></div>
@@ -29,6 +29,9 @@ export default {
   head() {
     return {
       title: "Tyson's Blog",
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ]
     };
   }
 };
@@ -36,17 +39,12 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap");
-html {
-  overflow: hidden;
-}
-body {
-  overflow: hidden;
-}
 .mainCont {
   display: flex;
   padding: 0;
   font-family: "Martel Sans", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
 }
 
 /* Waves */
