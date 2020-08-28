@@ -5,7 +5,12 @@
       <v-img class="bannerImg" height="50vh" :src=post.imageUrl></v-img>
       <h1>{{post.title}}</h1>
       <p> <span>{{post.tag}}</span> {{post.date}}</p>
-      <p class="body">{{post.body}}</p>
+      <div class="postBody">
+        <p v-html="post.bodyOne">{{post.bodyOne}}</p>
+        <v-img v-if="post.imageUrlInPost" contain :src=post.imageUrlInPost ></v-img>
+        <p v-if="post.bodyTwo" v-html="post.bodyTwo" >{{post.bodyTwo}}</p>
+      </div>
+      
   </v-container>
 </template>
 
@@ -53,9 +58,10 @@ export default {
   font-size: 50px;
 }
 
-.body {
+.postBody {
   margin-top: 20px;
   font-size: 24px;
+  padding: 0 200px;
 }
 
 
