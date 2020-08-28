@@ -3,7 +3,10 @@ export default [
         id: 1,
         title: 'A little about me',
         subtitle: 'The one about me',
-        body: 'This is my first nuxt post',
+        body: "My name is Tyson Elfors and I am from a small town in Utah called Grantsville. I enjoy playing sports, fishing, hunting, and all things technology. \
+        My past javascript is contained to what I have learned here at UVU and from some freelance web development. My favorite part of web development is the fact \
+        that I get to solve problems and be creative at the same time. I hope to gain a more in-depth knowledge about javascript because there are so many intricacies  \
+        within the language, and who doesn't want to become a javascript wizard 🧙‍♂️?",
         tag: 'Info',
         imageUrl: 'https://images.pexels.com/photos/954289/pexels-photo-954289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         date: 'Wednesday August 27, 2020'
