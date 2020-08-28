@@ -1,6 +1,6 @@
 # nuxtBlog
 
-## Build Setup
+## Tyson's Blog
 
 ```bash
 # install dependencies
