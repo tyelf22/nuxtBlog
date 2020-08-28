@@ -33,6 +33,6 @@ export default {
 }
 
 .card{
-    margin: 15px 0.5%;
+    margin: 15px 0.8%;
 }
 </style>
