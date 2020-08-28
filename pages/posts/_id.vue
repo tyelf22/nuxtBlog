@@ -1,7 +1,8 @@
 <template>
   <v-container class="postInfo">
+    <v-btn to='/' class="ma-2" fab small outlined color="#EA178C"><arrowLeft class="largeIcon"/></v-btn>
     <p>Home > Posts > Post {{post.id}}</p>
-      <v-img height="525px" :src=post.imageUrl></v-img>
+      <v-img class="bannerImg" height="50vh" :src=post.imageUrl></v-img>
       <h1>{{post.title}}</h1>
       <p> <span>{{post.tag}}</span> {{post.date}}</p>
       <p class="body">{{post.body}}</p>
@@ -33,6 +34,11 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap");
 .postInfo {
   font-family: "Martel Sans", sans-serif;
+}
+
+.largeIcon {
+  font-size: 30px;
+  margin-bottom: 6px;
 }
 
 .postInfo p span {

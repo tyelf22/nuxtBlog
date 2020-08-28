@@ -26,7 +26,7 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap'
-      }
+      },
     ]
   },
   /*
@@ -39,6 +39,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '@/plugins/vue-material-icons', mode: 'client' }
   ],
   /*
   ** Auto import components
