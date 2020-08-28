@@ -36,7 +36,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap");
 .postInfo {
   font-family: "Martel Sans", sans-serif;
 }
@@ -61,7 +60,7 @@ export default {
 .postBody {
   margin-top: 20px;
   font-size: 24px;
-  padding: 0 200px;
+  padding: 0 10%;
 }
 
 
