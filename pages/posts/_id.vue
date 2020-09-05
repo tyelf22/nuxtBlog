@@ -63,5 +63,12 @@ export default {
   padding: 0 10%;
 }
 
+pre {
+  overflow: scroll;
+  text-align: justify;
+  background: #F2F2F2;
+  font-size: 14px;
+}
+
 
 </style>
