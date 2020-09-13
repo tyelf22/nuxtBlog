@@ -75,13 +75,43 @@ export default [
     },
     {
         id: 4,
-        title: 'My fourth post',
-        subtitle: 'this is my fourth post',
-        body: 'The one fourth post',
+        title: 'Advanced Functions',
+        subtitle: 'The one with functions everywhere',
+        bodyOne: '<b>Intro to advanced functions</b><br>Advanced functions bring on the topic of recursion, stack, rest parameters, spread syntax, variable scope, and closures. Although these are considered some more advanced topics when it comes to functions, they are rather easy to get the hang of. We will talk more about why these topics are important for a syntactically sweet functions.<br><br>',
         tag: 'Info',
-        imageUrl: 'https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        date: 'Wednesday August 27, 2020',
-        imageUrlInPost: '',
-        bodyTwo: '',
+        imageUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Saturday September 12, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>Recursive Functions</b><br>A recursive function is simply a function that calls itself. This may by wierd at first to think about but it is important to remember in javascript that functions return values so at their core, a function is just a value. Often times we use a recursive function as an iterator that will continue executing until a base case is reached. Like any iteration we must have a base case so that javascript knows when to stop executing. <br>
+        Here is a good use case for recursion. -- <br><pre><code>
+        function factorial(num){
+            if(num === 1) return 1;
+            return num * factorial(num-1);
+        }
+        </code></pre>
+        <br><b>Scopes and Closures</b><br>Scope refers to where variables and functions can be accessed/executed from. Global scope variables and functions can be accessed from anywhere inside your code. With local scope, variables and functions can only be accessed from within the function they were declared. Closures are when a function can access the scope of another function within the same function that it was declared in. These are important topics to understand to save you from hours of debugging and being able to write more complex, concise code. \
+        <br><br><b>Spread Operator</b><br>Javascript was given a makeover with the release of es6, one of the features revealed in the makeover was the spread operator. The spread operator is easy to structure with simple adding “...” three dots followed by the variable you are working with. Some of the uses of the spread operator are: copying an array, creating arrays from characters in a string, concatenating arrays, destructuring objects, and adding items to an array. \
+        <br> Example of the spread operator -- <pre><code>
+        // spread operator concatenating arrays
+        let arr = [1,2,3]; 
+        let arr2 = [4,5]; 
+          
+        arr = [...arr,...arr2]; 
+        console.log(arr); // [ 1, 2, 3, 4, 5 ] 
+        </code></pre>
+        <br><br>
+        <pre><code>
+        // spread operator for copying arrays 
+        let arr = ['a','b','c']; 
+        let arr2 = [...arr]; 
+          
+        console.log(arr); // [ 'a', 'b', 'c' ] 
+          
+        arr2.push('d'); //inserting an element at the end of arr2 
+          
+        console.log(arr2); // [ 'a', 'b', 'c', 'd' ] 
+        console.log(arr); // [ 'a', 'b', 'c' ] 
+        </code></pre>
+        `,
     },
 ]

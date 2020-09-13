@@ -7,7 +7,7 @@
       <p> <span>{{post.tag}}</span> {{post.date}}</p>
       <div class="postBody">
         <p v-html="post.bodyOne">{{post.bodyOne}}</p>
-        <v-img v-if="post.imageUrlInPost" contain :src=post.imageUrlInPost ></v-img>
+        <v-img height="600px" v-if="post.imageUrlInPost" contain :src=post.imageUrlInPost ></v-img>
         <p v-if="post.bodyTwo" v-html="post.bodyTwo" >{{post.bodyTwo}}</p>
       </div>
       
