@@ -114,4 +114,31 @@ export default [
         </code></pre>
         `,
     },
+    {
+        id: 5,
+        title: 'Todo App',
+        subtitle: 'The one with Todo\'s',
+        bodyOne: '<b>My Todo App</b><br>My attempt at a todo app using vanilla js was fun and educating experience.<br><br>',
+        tag: 'App',
+        imageUrl: 'https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Saturday September 27, 2020',
+        imageUrlInPost: 'https://i.imgur.com/XGUBNJB.png',
+        bodyTwo: `<br><b>How it works</b><br>My app was built with a small amount of initial HTML and CSS, with a lot of Javascript. I utilized JS to add most of my markup by creating elements and appending those elements to parent containers. I found this approach to be rather easy since I have worked with it previously. However, there are definitely easier approaches than the way I built it after doing more research. I only had about 5 hours to build the app so I stuck with what I was familiar with in order to accomplish the task. I went with a very simplistic approach with my design that doesn’t require the user to manage many controls. Simple and straightforward was my style of building the app.Todo’s can be added by simply typing in the title and category of the todos. Categories are dynamically sorted based on user input. Each todo can be clicked on to cross off the todo as complete. Each todo also can be deleted by pressing on the delete button next to each todo item. Hiding done todos can be performed by pressing the button above the todo’s.<br>
+        This is how my todo's were created. -- <br><pre><code>
+        let li = document.createElement('li')
+        li.setAttribute('id', \`tag\${todo.id}\`)
+        li.addEventListener('click', doneTodo)
+        let deleteBtn = document.createElement('button')
+        deleteBtn.innerText = "Delete"
+        deleteBtn.setAttribute('class', 'deleteBtn')
+        deleteBtn.setAttribute('id', \`deleteBtn\${index}\`)
+        deleteBtn.addEventListener('click', deleteTodo)
+        li.innerText = todo.todo
+        let ulToAppend = document.querySelector(\`.\${todo.category}List\`)
+        ulToAppend.appendChild(li)
+        li.appendChild(deleteBtn)
+        </code></pre>
+        <br><b>Challenges I faced</b><br>My biggest challenge were the time constraints I had in order to build the application. Between other classes and work I only had a total of about 4-5 hours to work on this assignment. I am planning on refactoring some of my code to be simpler and more bug free. Another challenge was trying to implement local storage. This was something I have never done before so I had to do a little bit of research on how to tackle this task. This was a fun project and I learned a ton about javascript and manipulating the DOM.\
+        <br><br><b>What I would do differently</b><br>Like I mentioned I would love to spend more time on the project and build it in a more concise style. When I have more time I plan on creating the same app and use what I learned to fix some of the sloppy code and compare it with this application.`
+    },
 ]
