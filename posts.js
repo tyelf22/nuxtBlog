@@ -141,4 +141,29 @@ export default [
         <br><b>Challenges I faced</b><br>My biggest challenge were the time constraints I had in order to build the application. Between other classes and work I only had a total of about 4-5 hours to work on this assignment. I am planning on refactoring some of my code to be simpler and more bug free. Another challenge was trying to implement local storage. This was something I have never done before so I had to do a little bit of research on how to tackle this task. This was a fun project and I learned a ton about javascript and manipulating the DOM.\
         <br><br><b>What I would do differently</b><br>Like I mentioned I would love to spend more time on the project and build it in a more concise style. When I have more time I plan on creating the same app and use what I learned to fix some of the sloppy code and compare it with this application.`
     },
+    {
+        id: 6,
+        title: 'NodeJs',
+        subtitle: 'The one with server side JS',
+        bodyOne: '<b>Why NodeJs</b><br>What exactly is Nodejs? Why should we use it? Join me as we take a dive into the world of javascript outside of the browser.<br><br>',
+        tag: 'Server',
+        imageUrl: 'https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday October 11, 2020',
+        imageUrlInPost: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
+        bodyTwo: `<br><b>What it is</b><br>Node.js is a JavaScript framework for writing server-side apps. The simplest way to put it is that it allows you to trigger JavaScript programs from the terminal without any browser involved. For example, assuming node is installed if you write a JavaScript program in a file called main.js you can call node to execute and display the results inside of the terminal.<br>
+        Our Javascript Program -- <br><pre><code>
+        console.log('Hello World!');
+        </code></pre>
+        Run Node and Output -- <br><pre><code>
+        $ node hello.js
+        Hello World!
+        </code></pre>
+        <br><b>Why use Node?</b><br><ul><li>JavaScript is very convenient and straightforward for backend server side development. Node.js ensures that your app won't be outdated within a couple of years since you are using one of the most popular programming languages of all time.</li><li>Using Javascript on both the front-end and back-end make it easier to transition back and forth from front to back end development</li><li>Node.js is a great and easier solution for full-stack development. It reduces the amount of skills for programmers and eliminates the need to learn additional technologies in order to be a full-stack developer.</li><li>Node.js is an open-source technology that is free and doesn't require you to purchase licensing.</li></ul>\
+        <br><br><b>How is it different from client side JS?</b><br>NodeJS contains basically everything that JS offers although it provides an API to support various system operations like being able to write to a file, communicating with other programs, executing commands. Another big difference is that it provides a “global” object, similar to “window” for browsers, that contains various methods and variables unique to Node.
+        <br><br><b>What is Express JS?</b><br>Express.js is web application server framework for NodeJs, designed for building hybrid web applications, multi-page, and single-page apps. It is the de facto standard server framework for NodeJs. It is used to make routing, connecting to middleware, adding extensions, etc. in a more straight forward way.
+        <br><br><b>Why use a templating engine?</b><br>The job of a templating system in NodeJS is simply to combine markup with data and produce html pages that are more dynamic. With this you can dynamically change what is displayed in any of your html pages by specifying what data should appear where on the page.
+        <br><br><b>My templating choice</b><br>I chose to use handlebars as my templating engine. It seemed more straight forward than most of the other engines I looked at. I also thought it looked similar to how vueJs works with inserting data into html pages and I am pretty comfortable using Vue.`
+
+
+    },
 ]
