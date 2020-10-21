@@ -166,4 +166,22 @@ export default [
 
 
     },
+    {
+        id: 7,
+        title: 'Databases',
+        subtitle: 'The one with storing data',
+        bodyOne: '<b>Database Features</b><br>SQL databases are usually called as Relational Databases (RDBMS) and NoSQL database are usually called as non-relational or distributed database. SQL databases manipulate and store data in a structured relational way that requires predefined schemas that follow the same structure. On the other hand NoSQL are unstructed that can vary in any way that you need. Another type of database is called object databases that store data in the forms of objects instead of a table structure.<br><br>',
+        tag: 'Data',
+        imageUrl: 'https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Tuesday October 20, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<b>When To Use Them?</b><br>SQL is primarily used when working with data that is very stuctured and when you know exactly what is going to be stored in it and how eveything will "link" together that provides declarative data integrity. On the other hand, NoSQL would be used in situation that the data isn't predefined and can grow without constraints of structed data. Object databases are similar to NoSQL databases since theses object are able to grow in any way with key value pairs.<br>
+        <br><b>What are the differences?</b><br><ul><li>SQL is more structured</li><li>NoSQL is more dynamic</li><li>Object databases uses the power of object oriented design to structure complex data </li></ul>\
+        <br><b>SQL Advantages</b><br><ul><li>Data Accuracy</li><li>Easy Access To Data</li> <li>Data Integrity</li><li>High Security</li><ul>
+        <br><b>NoSQL Advantages</b><br><ul><li>Handle large amounts of data quickly</li><li>Store unstructured data</li> <li>Developer friendly/li><li>Easy to update schemas</li><ul>
+        <br><b>Object Advantages</b><br><ul><li>Works well with OOP</li><li>Highly scalable</li> <li>Complex data can be retrieved quickly</li><li>Easy to update schemas</li><ul>`
+       
+
+
+    },
 ]
