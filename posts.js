@@ -180,8 +180,20 @@ export default [
         <br><b>SQL Advantages</b><br><ul><li>Data Accuracy</li><li>Easy Access To Data</li> <li>Data Integrity</li><li>High Security</li><ul>
         <br><b>NoSQL Advantages</b><br><ul><li>Handle large amounts of data quickly</li><li>Store unstructured data</li> <li>Developer friendly/li><li>Easy to update schemas</li><ul>
         <br><b>Object Advantages</b><br><ul><li>Works well with OOP</li><li>Highly scalable</li> <li>Complex data can be retrieved quickly</li><li>Easy to update schemas</li><ul>`
-       
 
+    },
+    {
+        id: 8,
+        title: 'Todo App Backend',
+        subtitle: 'The one about the backend',
+        bodyOne: '<b>Architecture</b><br>My to-do app’s architecture consisted of a frontend, backend, and a database. For my frontend I used vanillaJs that used fetch to communicate with my backend and was hosted on Netlify. My backend was entirely NodeJs that used mongoose to define my schemas. The database I decided to go with was MongoDB.<br><br>',
+        tag: 'Data',
+        imageUrl: 'https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Tuesday October 20, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<b>Why I chose this design?</b><br>I chose this architecture because it makes the most sense to me. I like the fact that everything is decoupled from one another and that I can keep everything organized separately from the frontend, backend, and database.<br>
+        <br><b>How I modeled my data</b><br>My modeling was fairly basic since the way my frontend already organizes my to-do categories. I simply created a model for my to-dos with the to-do name, to-do category, and completion. I think my modeling would have been slightly different if I decided to organize categories differently in the frontend since I may have needed to add another model for categories and reference those categories.<br>
+        <br><b>Why documentation is important?</b><br>Documentation is important for several reasons. A few of the reasons that come to mind for me are: <ul><li>Allows other developers to quickly read over your documentation so that they can understand the architecture and design of your application. If they ever want to modify or consume your application, it is very helpful to have</li><li></li>It ensures you will always remember how you have your app setup so that you can easily modify it or fix bugs when needed.<li>So users can see how the app works and understand how it can benefit them.</li></ul><br>`
 
     },
 ]
