@@ -189,11 +189,25 @@ export default [
         bodyOne: '<b>Architecture</b><br>My to-do app’s architecture consisted of a frontend, backend, and a database. For my frontend I used vanillaJs that used fetch to communicate with my backend and was hosted on Netlify. My backend was entirely NodeJs that used mongoose to define my schemas. The database I decided to go with was MongoDB.<br><br>',
         tag: 'Data',
         imageUrl: 'https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        date: 'Tuesday October 20, 2020',
+        date: 'Tuesday October 27, 2020',
         imageUrlInPost: 'https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         bodyTwo: `<b>Why I chose this design?</b><br>I chose this architecture because it makes the most sense to me. I like the fact that everything is decoupled from one another and that I can keep everything organized separately from the frontend, backend, and database.<br>
         <br><b>How I modeled my data</b><br>My modeling was fairly basic since the way my frontend already organizes my to-do categories. I simply created a model for my to-dos with the to-do name, to-do category, and completion. I think my modeling would have been slightly different if I decided to organize categories differently in the frontend since I may have needed to add another model for categories and reference those categories.<br>
         <br><b>Why documentation is important?</b><br>Documentation is important for several reasons. A few of the reasons that come to mind for me are: <ul><li>Allows other developers to quickly read over your documentation so that they can understand the architecture and design of your application. If they ever want to modify or consume your application, it is very helpful to have</li><li></li>It ensures you will always remember how you have your app setup so that you can easily modify it or fix bugs when needed.<li>So users can see how the app works and understand how it can benefit them.</li></ul><br>`
+
+    },
+    {
+        id: 9,
+        title: 'Recipe App Post 1',
+        subtitle: 'Initial project setup',
+        bodyOne: '<b>About the project</b><br>The recipe app will keep track of various recipes that you like to cook and eat. Users will be able to add their own recipes, including ingredients and directions. They will also be able to categorize recipes and rate them. The app will also function as a shopping list. Users will have the ability to add ingredients from their recipes to a shopping list.',
+        tag: 'Application',
+        imageUrl: 'https://images.pexels.com/photos/4191621/pexels-photo-4191621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday November 8, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/4191621/pexels-photo-4191621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>What I have accomplished this week</b><br>This week I have worked on a lot of the initial structuring of the application. The first thing I did was think about how I wanted to structure the database. As of right now I am using mongoDB, it is what I am familiar with and seemed like a good fit for tracking recipes. The schema I am using includes; name, description, category, rating, ingredients, and directions. At first, I was planning on making the ingredients another collection that would have their own unique ID’s but decided I was going to simply have them as an array of strings. I may change this in the future but for simplicity and getting things to flow how I want; I will stick with it for now. I also setup the basic template for displaying the recipe cards and being able to create new recipes with a modal pop-up.<br>
+                  <br><b>What I plan on doing next week</b><br>Next week I plan on working with updating recipe information. I am thinking it will be another modal like the add new recipe, but it will populate with all of the current recipe information and allow you to edit it.                  <br>
+        <br><b>What roadblocks have I encountered and how I overcame them</b><br>My biggest roadblock so far was thinking of the design of the database, but after talking with Landon I think I am on the right track.<br>`
 
     },
 ]
