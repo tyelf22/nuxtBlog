@@ -210,4 +210,17 @@ export default [
         <br><b>What roadblocks have I encountered and how I overcame them</b><br>My biggest roadblock so far was thinking of the design of the database, but after talking with Landon I think I am on the right track.<br>`
 
     },
+    {
+        id: 10,
+        title: 'Recipe App Post 2',
+        subtitle: 'Part 2',
+        bodyOne: '<b>What I have done this week</b><br>This week I worked on fixing my modal for editing or adding new recipes. I am using bootstrap and have a bootstrap modal that toggles whether you click on the add button to add a new recipe or click on the edit button for an existing recipe. If the edit button is clicked the fields are populated with the information depending on the id of the button that was clicked corresponding with the recipe information with the same id. When clicking on the add recipe button those fields are cleared out and the button to save the recipe allows you to add a completely new recipe. However, it defaulted to adding an entire new recipe after editing the fields with the edit button since it was the same modal and the same save button. I made it so that if an edit button was pushed a variable was set to an isEdit variable forcing an different block of code to execute within a “if” block. Another feature I completed was the ability to edit ingredients and directions. Before you could only simply add these two items, now you are able to edit them.',
+        tag: 'Application',
+        imageUrl: 'https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday November 15, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>What I plan on doing next</b><br>Next week I plan on adding the sort by category feature. I plan on making it so that you can just type in a category and it will sort based on the user input. I was going to have a drop down box with all of the category names but I think that would look sloppy and wouldn’t scale very easily if there are hundreds of different recipe categories.<br>
+                  <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was trying to figure out how I could have one bootstrap modal that would perform two separate tasks. One for adding new recipes and editing existing recipes. I was going to just create two separate modals but it didn’t really make sense since they would be the exact same. I overcame this roadblock by doing research and watching tutorials online. <br>`
+
+    },
 ]
