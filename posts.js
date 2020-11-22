@@ -223,4 +223,17 @@ export default [
                   <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was trying to figure out how I could have one bootstrap modal that would perform two separate tasks. One for adding new recipes and editing existing recipes. I was going to just create two separate modals but it didn’t really make sense since they would be the exact same. I overcame this roadblock by doing research and watching tutorials online. <br>`
 
     },
+    {
+        id: 11,
+        title: 'Recipe App Post 3',
+        subtitle: 'Part 3',
+        bodyOne: '<b>What I have done this week</b><br>This week I worked on adding the ability to search and sort for categories. I decided instead of giving the users a drop down menu with all of the available categories I would allow them to do a universal search to find categories they may be interested in. I felt for scalability this was an easier route to go so the dropdown wasn’t a long confusing list of categories. The users will know what categories that what and can easily type in a filter those categories. I also added an icon for where the shopping list will be accessed. I placed the icon above the add new recipe button in the bottom right hand corner to give the application a material design feel.',
+        tag: 'Application',
+        imageUrl: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday November 22, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>What I plan on doing next</b><br>Next week I plan on adding the shopping list to the app. It will be a little pop-up box that users will be able to drag around the screen so they can view recipes and still place the shopping list where they want. I am thinking this won’t be too difficult to do and will probably try to find something on codepen that helps give me an idea of how this will work.<br>
+                  <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was trying to decide how I wanted to be able to sort by categories, but like I mentioned I decided to go with allowing the users to search categories instead of having a lengthy list of all the different possible categories they would have to read through. I overcame this by looking at different applications and deciding what looks the cleanest. <br>`
+
+    },
 ]

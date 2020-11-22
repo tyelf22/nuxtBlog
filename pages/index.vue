@@ -51,7 +51,7 @@ export default {
   left: 50%;
   transform: translate(-50%, 0);
   width: 1000px;
-  height: 1025px;
+  height: auto;
   background-color: #EA178C;
   opacity: 0.6;
   border-radius: 40%;
@@ -121,7 +121,6 @@ export default {
 .welcomeText {
   width: 50%;
   padding: 50px;
-  height: 2000px;
 }
 
 .welcomeText h1 {
@@ -132,6 +131,7 @@ export default {
 .articles {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 
