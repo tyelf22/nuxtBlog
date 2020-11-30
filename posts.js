@@ -236,4 +236,17 @@ export default [
                   <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was trying to decide how I wanted to be able to sort by categories, but like I mentioned I decided to go with allowing the users to search categories instead of having a lengthy list of all the different possible categories they would have to read through. I overcame this by looking at different applications and deciding what looks the cleanest. <br>`
 
     },
+    {
+        id: 12,
+        title: 'Recipe App Post 4',
+        subtitle: 'Part 4',
+        bodyOne: '<b>What I have done this week</b><br>This week I worked on adding the shopping list to the application. When the user clicks on the shopping list icon a draggable box will be displayed. I created a new collection in MongoDB to house all of the data for the shopping list. Users can then add new items, delete items. I am still working on the ability to check off items. I was surprised how easy it was to implement the draggable box, I was expecting it to be much more difficult. However, with a little JS and CSS it did the trick. I wanted it to be draggable since users will need to be able to see recipes on the main menu and see what items are in their shopping list.',
+        tag: 'Application',
+        imageUrl: 'https://images.pexels.com/photos/4032970/pexels-photo-4032970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday November 29, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/4032970/pexels-photo-4032970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>What I plan on doing next</b><br>Next week I plan on adding the ability to check off shopping list items. I keep running into issues with this so I am going to really dig into it. I am also going to do some major CSS/Styling changes to the app to be more user friendly.<br>
+                  <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was trying to figure out how to get items to cross off in the shopping list. The way I have my backend setup is making it difficult to get this to work. However, I am going to look at the code I used for my Todo app and mimic that.<br>`
+
+    },
 ]
