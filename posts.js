@@ -249,4 +249,17 @@ export default [
                   <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was trying to figure out how to get items to cross off in the shopping list. The way I have my backend setup is making it difficult to get this to work. However, I am going to look at the code I used for my Todo app and mimic that.<br>`
 
     },
+    {
+        id: 13,
+        title: 'Recipe App Post 5',
+        subtitle: 'Part 5',
+        bodyOne: '<b>What I have done this week</b><br>This week I worked on the ability for users to cross off shopping list items. I was struggling with this last week since I really wasn’t considering the backend of my application for crossing off the items. I have a “complete” property in my shopping item object but wasn’t utilizing this when crossing off the items. I implemented a patch request to set the item to complete with a click event. Then I check if the item is completed and add item.style.textDecoration = ‘line-through’. This worked great and now makes it easier and ensures the items aren’t crossed off without having a property of complete.',
+        tag: 'Application',
+        imageUrl: 'https://images.pexels.com/photos/3687999/pexels-photo-3687999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday December 6, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/3687999/pexels-photo-3687999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>What I plan on doing next</b><br>Next week I plan on adding an image property so that users can place their own images via URL. This will make the app look more professional as well as give it some color. I also plan on doing some major refactoring to layouts and styles since the app is looking bland as of right now.<br>
+                  <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was when I was working in my backend with my patch statement. My patch statement had conditionals that would update a property if the property returned true or if it was simply just present in the JSON object. Since all of my shopping list items “complete” status default to false, I was never able to reach the code block to update the status. It was an easy fix but took me a while to get it figured out.<br>`
+
+    },
 ]
