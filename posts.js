@@ -262,4 +262,17 @@ export default [
                   <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was when I was working in my backend with my patch statement. My patch statement had conditionals that would update a property if the property returned true or if it was simply just present in the JSON object. Since all of my shopping list items “complete” status default to false, I was never able to reach the code block to update the status. It was an easy fix but took me a while to get it figured out.<br>`
 
     },
+    {
+        id: 14,
+        title: 'Recipe App Post 6',
+        subtitle: 'Part 6',
+        bodyOne: '<b>What I have done this week</b><br>This week I worked on formatting my text that I was displaying with inner html from a javascript array to be more readable. I spent way too long trying to figure out how to do this since it was such a simple fix. Basically, when I was displaying all of the ingredients and directions from the javascript object to the frontend by using innerHTML there was no space separating each value. For some reason I couldn’t get my mind around it and was trying to do forEach loops and for loops to loop through each value and print it out that way. After spending way too many hours with this problem I finally figured out all I needed to do was add a .join(“, ”). This joined each value with a comma and space. It’s crazy how sometimes you can spend so much time on such a little thing when it comes to programming. Although it felt like such a waste of time, I learned a lot about javascript during the hunt for the solution.',
+        tag: 'Application',
+        imageUrl: 'https://images.pexels.com/photos/4578665/pexels-photo-4578665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        date: 'Sunday December 13, 2020',
+        imageUrlInPost: 'https://images.pexels.com/photos/4578665/pexels-photo-4578665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        bodyTwo: `<br><b>What I plan on doing next</b><br>Next week I plan on finishing everything up. This includes getting my backend up to Heroku and setting up my front end with Netlify. I will also do some testing to try and find some bugs that I can fix.<br>
+                  <br><b>Roadblocks I encountered</b><br>A roadblock I ran into this week was like I mentioned above, not being able to figure out how to properly format a string that I needed to display from a javascript array. In order to overcome the roadblock I had to do a lot of digging online which helped me learn a lot more if I wouldn’t have encountered the problem but I should have known how to do this in the first place.<br>`
+
+    },
 ]
